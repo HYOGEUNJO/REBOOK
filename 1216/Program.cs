@@ -8,7 +8,7 @@
             Console.Write("Console.Write : 줄바꿈 없음");
             Console.Write("\n"); // = Console.WriteLine();
             Console.WriteLine("Console.WriteLine : 줄바꿈 있음");
-            
+
 
             Console.Write("\n\n");
             // <문자열 보간법 $"{}">
@@ -25,7 +25,7 @@
             // $"" 보간법을 사용하여 문자열 출력, {}안에 선언된 변수가 출력되며, ""안에 있는 다른 문자열도 출력이 된다.
             Console.WriteLine($"{hello} 가나다라 {world}");
 
-            string hello_world = string.Format("{0} {1}",hello,world);
+            string hello_world = string.Format("{0} {1}", hello, world);
             Console.WriteLine(hello_world);
 
             hello_world = hello + " " + world;
@@ -74,7 +74,7 @@
             string sInput = Console.ReadLine();
             Console.WriteLine(sInput);
 
-            //// Console.Read() : 입력한 하나의 문자(문자열이 아닌 하나의 문자 혹은 숫자)를 유니코드 값으로 변환하여 출력. (ex.'a' = 97로 확인된다. 정수를 입력할 경우 입력값과 다른 수로 확인된다.) * 그냥 쓰지말자
+            //// Console.Read() : 입력한 하나의 문자(문자열이 아닌 하나의 문자 혹은 숫자)를 유니코드 값으로 변환하여 출력. (ex.'a' = 97로 확인된다. 정수를 입력할 경우 입력값과 다른 수로 확인된다.) * 그냥 쓰지말자 - Read() 는 입력후 바로 터미널이 끝난다.
             //Console.Write("Console.Read() : ");
             //int sInput2 = Console.Read(); // 입력 : int 타입
             //Console.WriteLine(sInput2); // 해당 문자의 유니코드 값 반환
@@ -84,7 +84,7 @@
             //Console.Write("Console.ReadKey() : ");
             //ConsoleKeyInfo sInput3 = Console.ReadKey(false); // 입력 : ConsoleKeyInfo 타입 , true : 입력즉시 입력값 미표시 / false : 표시
             //Console.Write("\n");
-            //Console.WriteLine(sInput3.KeyChar);
+            //Console.Write(sInput3.KeyChar);
 
 
             Console.Write("\n\n");
